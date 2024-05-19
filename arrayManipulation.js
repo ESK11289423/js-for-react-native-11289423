@@ -18,3 +18,10 @@ function formatArrayStrings(strArr, numArr) {
         }
     });
 }
+
+const inputArray = [1, 2, 3, 4, 5];
+
+const stringArray = ["Seli", "Kwesi", "Dennis", "Ben", "Francis"];
+const formattedArray = formatArrayStrings(stringArray, inputArray);
+
+export {formattedArray}
